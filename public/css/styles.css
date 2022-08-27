@@ -1,0 +1,150 @@
+/* Colores */
+
+:root {
+    /* COLORES */
+    --color-amarillo : #EAC926;
+    --color-azul : #03264C;
+    --color-celeste : #1259c3;
+    --color-grisOscuro : #666;
+    --color-grisClaro : #ebebeb;
+    --color-verde : #39b54a;
+    /* FUENTES */
+    --font-roboto : 'Roboto', sans-serif;
+    /* Tamaños de fuentes */
+    --paragraph : 12px;
+    --title : 24px;
+    --prices : 18px;
+    --discounts-descriptions : 16px;
+}
+
+
+/* Generales */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+body{
+    font-family: var(--font-roboto);
+
+}
+
+li{
+    list-style: none;
+}
+
+/* Fin Generales */
+
+/* Celular */
+
+header{
+    background-color: var(--color-amarillo);
+}
+
+body header div{
+    max-width: 320px;
+    margin-left: 5px;
+}
+
+body header div img{
+    width: 50%;
+    margin: 1.5rem;
+    text-align: center;
+}
+
+body header div div input{
+    width: 205px;
+}
+
+body header div div.input-search{
+    max-width: 320px;
+    margin: 2px;
+    width: 50%;
+}
+
+body header div p{
+    text-align: center;
+    margin: 5px;
+    font-size: var(--paragraph);
+}
+
+body header nav {
+    padding: 10px;
+}
+
+body header nav ul{
+    margin-top: 15px;
+}
+
+body header nav ul li{
+    font-size: var(--paragraph);
+
+}
+
+body header nav ul.ul-2{
+    margin-top: 10px;
+}
+
+body header nav div{
+    padding: 5px;
+}
+
+body header nav div.burger-menu{ 
+    border-radius: 5px;
+    width: 30px;
+    height: 30px;
+    font-size: 15px;
+    background-color: var(--color-celeste);
+    color: white;
+    text-align: center;
+    padding: 7px;
+    margin: 0 auto;
+}
+
+body header nav div.burger-menu:hover{
+    cursor: pointer;
+}
+
+body footer{
+    margin: 0 10px 15px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 10px;
+
+}
+
+body footer div div{
+    margin: 30px 15px;
+}
+
+body footer div div i{
+    font-size: 2rem;
+    color: var(--color-celeste);
+}
+
+body footer div div h2{
+    font-size: var(--prices);
+}
+
+body footer div div p{
+    color: var(--color-grisOscuro);
+    font-size: var(--discounts-descriptions);
+}
+
+body footer div div.copyright{
+    margin: 0;
+    text-align: left;
+}
+
+
+body footer div div.copyright p{
+font-size: var(--paragraph);
+}
