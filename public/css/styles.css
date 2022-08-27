@@ -34,7 +34,6 @@ a{
 
 body{
     font-family: var(--font-roboto);
-    max-width: 320px;
 }
 
 li{
@@ -50,9 +49,9 @@ header{
 }
 
 body{
-    max-width: 320px;
     background-color: var(--color-grisClaro);
 }
+
 
 body header div img{
     padding: 10px;
@@ -119,7 +118,6 @@ body header nav div.burger-menu:hover{
 
 body main div div img.banner{
     width: 100%;
-    height: 80px;
 }
 
 body main h1{
